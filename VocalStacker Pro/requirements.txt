@@ -1,13 +1,10 @@
-customtkinter
+Flask
+gunicorn
 numpy
 scipy
 librosa
 pydub
 soundfile
-matplotlib
+demucs
 torch
 torchaudio
-demucs
-simpleaudio
-Flask
-gunicorn
