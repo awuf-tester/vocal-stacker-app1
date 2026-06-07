@@ -1,0 +1,10 @@
+Flask
+gunicorn
+numpy
+scipy
+librosa
+pydub
+soundfile
+demucs
+torch
+torchaudio

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: vocalstacker-pro
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements-render.txt"
+    startCommand: "gunicorn web:app --workers 2 --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: AWS_ACCESS_KEY_ID
+        fromDatabase: false
+      - key: AWS_SECRET_ACCESS_KEY
+        fromDatabase: false
+      - key: S3_BUCKET
+        fromDatabase: false

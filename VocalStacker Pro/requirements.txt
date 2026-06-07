@@ -1,0 +1,13 @@
+customtkinter
+numpy
+scipy
+librosa
+pydub
+soundfile
+matplotlib
+torch
+torchaudio
+demucs
+simpleaudio
+Flask
+gunicorn
